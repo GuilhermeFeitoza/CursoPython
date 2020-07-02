@@ -111,5 +111,38 @@ else:
     media = sum(notas)/15
     print(media)
 """
+"""
+##Exercicio11
 
+vetor = []
+i = 0
+numeros_negativos  = 0
+soma = 0
 
+while i < 10:
+    numero = int(input('Entre com um numero'))
+    vetor.append(numero)
+    i += 1
+    if  numero < 0:
+          numeros_negativos += 1
+    else:
+        soma += numero
+
+print(f'A soma é {soma}')
+print(f'O total de numeros negativos é {numeros_negativos}')
+print(vetor)
+"""
+"""
+##Exercicio12
+vetor = []
+i = 0
+while i < 5 :
+    vetor.append(int(input('Entre com um numero')))
+    i += 1
+
+else:
+    print(f'Maior valor {max(vetor)}')
+    print(f'Menor valor {min(vetor)}')
+    print(f'Media{ sum(vetor)/5}')
+"""
+##Exercicio13
